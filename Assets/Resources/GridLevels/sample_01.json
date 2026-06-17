@@ -1,0 +1,59 @@
+{
+  "levelId": "sample_01",
+  "map": {
+    "width": 8,
+    "height": 8,
+    "blockedCells": [
+      { "x": 3, "y": 3 },
+      { "x": 4, "y": 3 }
+    ]
+  },
+  "objects": [
+    {
+      "id": "snake_01",
+      "type": "Snake",
+      "shapeId": "",
+      "pivot": { "x": 1, "y": 1 },
+      "rotation": 0,
+      "moveAxis": "Free",
+      "cells": [
+        { "x": 1, "y": 1 },
+        { "x": 1, "y": 2 },
+        { "x": 1, "y": 3 },
+        { "x": 2, "y": 3 }
+      ]
+    },
+    {
+      "id": "block_2x2_horizontal",
+      "type": "Block",
+      "shapeId": "Rect_2x2",
+      "pivot": { "x": 5, "y": 1 },
+      "rotation": 0,
+      "moveAxis": "Horizontal",
+      "cells": []
+    },
+    {
+      "id": "block_1x3_vertical",
+      "type": "Block",
+      "shapeId": "Rect_1x3",
+      "pivot": { "x": 6, "y": 4 },
+      "rotation": 0,
+      "moveAxis": "Vertical",
+      "cells": []
+    }
+  ],
+  "placeableItems": [
+    {
+      "id": "item_plus",
+      "shapeId": "Plus_3x3",
+      "rotation": 0,
+      "moveAxis": "Free"
+    },
+    {
+      "id": "item_l_2x2",
+      "shapeId": "MissingCorner_2x2",
+      "rotation": 1,
+      "moveAxis": "Free"
+    }
+  ]
+}

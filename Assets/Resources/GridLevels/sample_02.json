@@ -1,0 +1,77 @@
+{
+  "levelId": "sample_02",
+  "map": {
+    "width": 10,
+    "height": 10,
+    "blockedCells": [
+      { "x": 0, "y": 5 },
+      { "x": 1, "y": 5 },
+      { "x": 8, "y": 2 },
+      { "x": 8, "y": 3 }
+    ]
+  },
+  "objects": [
+    {
+      "id": "snake_02",
+      "type": "Snake",
+      "shapeId": "",
+      "pivot": { "x": 2, "y": 2 },
+      "rotation": 0,
+      "moveAxis": "Free",
+      "cells": [
+        { "x": 2, "y": 2 },
+        { "x": 3, "y": 2 },
+        { "x": 4, "y": 2 },
+        { "x": 4, "y": 3 },
+        { "x": 4, "y": 4 }
+      ]
+    },
+    {
+      "id": "block_2x3_free",
+      "type": "Block",
+      "shapeId": "Rect_2x3",
+      "pivot": { "x": 6, "y": 6 },
+      "rotation": 0,
+      "moveAxis": "Free",
+      "cells": []
+    },
+    {
+      "id": "block_l_locked",
+      "type": "Block",
+      "shapeId": "MissingCorner_2x2",
+      "pivot": { "x": 2, "y": 7 },
+      "rotation": 2,
+      "moveAxis": "Locked",
+      "cells": []
+    },
+    {
+      "id": "block_1x2_rotated",
+      "type": "Block",
+      "shapeId": "Rect_1x2",
+      "pivot": { "x": 7, "y": 0 },
+      "rotation": 1,
+      "moveAxis": "Horizontal",
+      "cells": []
+    }
+  ],
+  "placeableItems": [
+    {
+      "id": "item_1x1",
+      "shapeId": "Cell_1x1",
+      "rotation": 0,
+      "moveAxis": "Free"
+    },
+    {
+      "id": "item_3x3",
+      "shapeId": "Rect_3x3",
+      "rotation": 0,
+      "moveAxis": "Locked"
+    },
+    {
+      "id": "item_2x3_rotated",
+      "shapeId": "Rect_2x3",
+      "rotation": 1,
+      "moveAxis": "Vertical"
+    }
+  ]
+}
